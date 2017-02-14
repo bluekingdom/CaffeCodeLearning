@@ -1,2 +1,2 @@
 # 目录
-* [Blob](blob.md)
+* [Blob](Blob.md)
