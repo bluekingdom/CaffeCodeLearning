@@ -4,9 +4,9 @@
 
 * [SyncedMemory](note/basics/syncedmem.md)
 * [Blob](note/basics/blob.md)
-* [Layer](note/basics/layer.md)
-* [Net](note/basics/net.md)
-* [Solver](note/basics/solver.md)
+* Layer
+* Net
+* Solver
 
 ## Layers
 
