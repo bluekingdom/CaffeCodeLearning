@@ -30,5 +30,5 @@ bool cpu_malloc_use_cuda_; // 是否是使用cuda函数来分配内存
 有以下几个难点：
 
 * 数据有三种方式分配：`malloc, cudaMallocHost, cudaMalloc`。 前两个是分配内存数据的，最后一个是分配显存数据。两个内存分配方式的差别在于和显存进行数据传输的速度差异，在传输数据大小大于一定条件下，`cudaMallocHost`会比`malloc`的要快。具体请点击阅读[Pinned-Memory-Vs-Non-Pinned-Memory](https://satisfie.github.io/2016/09/15/Pinned-Memory-Vs-Non-Pinned-Memory/)。
-* `async_gpu_push`函数：--TODO
+* `async_gpu_push`函数： 异步执行将内存数据同步到显存。 用到`cudaMemcpyAsync`函数，以及base_data_layer.cpp中的`cudaStreamSynchronize`，完成异步传输工作。 这里还设计cuda stream的概念，详情点击阅读[CUDA 流](http://www.voidcn.com/blog/u013947807/article/p-4917081.html)和[cudaMemcpy与cudaMemcpyAsync的区别](http://www.cnblogs.com/shrimp-can/p/5231857.html)。 
 
