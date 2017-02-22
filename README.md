@@ -35,7 +35,11 @@
 
 * SGD
 
-## Utils 
+## Utils
 
 * Caffe.cpp
 * Convert_imageset.cpp
+
+## Miscellanea
+
+* C++ Template
