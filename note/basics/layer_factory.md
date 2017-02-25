@@ -1,7 +1,5 @@
 # Layer Factory
 
-[TOC]
-
 ## 工厂模式 Factory Pattern
 
 Layer的管理涉及一些设计模式。建议先熟悉这个概念，再继续往下学习。点击阅读：
