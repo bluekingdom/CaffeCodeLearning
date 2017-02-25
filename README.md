@@ -4,6 +4,7 @@
 
 * [SyncedMemory](note/basics/syncedmem.md)
 * [Blob](note/basics/blob.md)
+* [Layer Factory](note/basics/layer_factory.md)
 * Layer
 * Net
 * Solver
@@ -43,3 +44,7 @@
 ## Miscellanea
 
 * C++ Template
+
+
+
+关于文档中的公式显示问题，用chrome浏览器，并安装插件[GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related)。
